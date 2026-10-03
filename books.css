@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #faf8f2;
+    color: #26352d;
+}
+
+.search {
+    width: 40%;
+}
+
+.search-btn,
+.add-cart {
+    background: #526b5a;
+    color: white;
+}
+
+.search-btn:hover,
+.add-cart:hover {
+    background: #405447;
+    color: white;
+}
+
+.book-main-img {
+    width: 80%;
+    height: 500px;
+    object-fit: contain;
+}
+
+.subtitle {
+    color: #666;
+    font-size: 18px;
+}
+
+.rating {
+    color: #e5a83b;
+}
+
+.rating span {
+    color: #666;
+}
+
+.price {
+    color: #26352d;
+}
+
+.format {
+    border: 1px solid #ccc;
+}
+
+.format.active {
+    border: 2px solid #526b5a;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.quantity button {
+    border: none;
+    background: none;
+    padding: 10px 15px;
+}
+
+.quantity span {
+    padding: 0 10px;
+}
+
+.buy-now {
+    border: 1px solid #526b5a;
+    color: #526b5a;
+}
+
+.delivery-card {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px #0001;
+}
+
+.delivery-card p {
+    color: #777;
+    font-size: 14px;
+}
+
+.book-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.book-card img {
+    height: 250px;
+    object-fit: contain;
+    padding: 15px;
+}
+
+.book-card .add-cart {
+    border-radius: 8px;
+}

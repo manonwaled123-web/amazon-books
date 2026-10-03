@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<nav class="navbar bg-body-tertiary fixed-top nav1">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="pngtree-an-open-book-logo-png-image_15367612.png" alt="Logo" width="50" height="45" class="d-inline-block align-text-center">
+      My-Book
+    </a>
+
+
+   <a href="index.html" class="btn position-relative">
+        <i class="bi bi-house-fill " style="font-size: 30px;"></i>
+    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+        10+
+    </span>
+</a>
+
+
+
+
+ <a href="face.html" class="btn position-relative">
+    <i class="bi bi-facebook fs-2"></i>
+    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+        10+
+    </span>
+</a>
+
+
+<a href="instgram.html" class="btn position-relative">
+    <i class="bi bi-instagram fs-2"></i>
+    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+        20+
+    </span>
+</a>
+
+
+
+<a href="pay.html" class="btn position-relative">
+     <i class="bi bi-cart3 fs-3"></i>
+
+    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+        20+
+    </span>
+</a>
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    
+    <a class="navbar-brand" href="#">PageUp</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+        
+      </form>
+    </div>
+  </div>
+</nav>
+  </div>
+</nav>
+
+<nav class="sub-navbar fixed-top nav2">
+    <div class="categories">
+        ☰ ALL CATEGORIES
+    </div>
+
+    <a href="#">Best Sellers</a>
+    <a href="#">New Arrivals</a>
+    <a href="#">Fiction </a>
+    <a href="#">Non-Fiction</a>
+    <a href="#">Children </a>
+    <a href="#">Education</a>
+</nav>
+
+<div id="carouselExampleFade" class="carousel slide carousel-fade">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./imges/WhatsApp Image 2026-09-25 at 2.38.58 A.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./imges/WhatsApp Image 2026-09-25 at 2.38.57 AM.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./imges/crol.jpeg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<div class="container my-5">
+    <h2 class="mb-4">Popular Books</h2>
+    <div class="row g-4">
+
+        <!-- Book 1 -->
+        <div class="col-lg-3 col-md-6">
+            <div class="card book-card h-100">
+                <div class="position-relative">
+                    <img src="./imges/09bb87580f0f08f7f3c3414d65856e51.jpg"
+                         class="card-img-top book-img"
+                         alt="Book">
+                    <button class="favorite">♡</button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Atomic Habits</h5>
+                    <p class="author">James Clear</p>
+                    <p class="rating">
+                        ⭐ 4.8 <span>(12.5k)</span>
+                    </p>
+                    <h5 class="price">$12.99</h5>
+                    <a href="book1.html" class="btn add-cart w-100">
+                        🛒 Add to Cart
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Book 2 -->
+        <div class="col-lg-3 col-md-6">
+            <div class="card book-card h-100">
+
+                <div class="position-relative">
+                    <img src="./imges/1156914d1cbd3f5110e0b631feda3efa.jpg"
+                         class="card-img-top book-img"
+                         alt="Book">
+                    <button class="favorite">♡</button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">The Midnight Library</h5>
+                    <p class="author">Matt Haig</p>
+                    <p class="rating">
+                        ⭐ 4.6 <span>(8.2k)</span>
+                    </p>
+                    <h5 class="price">$11.99</h5>
+                    <a href="book2.html" class="btn add-cart w-100">
+                        🛒 Add to Cart
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Book 3 -->
+        <div class="col-lg-3 col-md-6">
+            <div class="card book-card h-100">
+                <div class="position-relative">
+                    <img src="./imges/130a2049d7e57cbdc1c722af2feead9a.jpg"
+                         class="card-img-top book-img"
+                         alt="Book">
+                    <button class="favorite">♡</button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">1984</h5>
+                    <p class="author">George Orwell</p>
+                    <p class="rating">
+                        ⭐ 4.7 <span>(10.3k)</span>
+                    </p>
+                    <h5 class="price">$9.99</h5>
+                    <a href="book3.html" class="btn add-cart w-100">
+                        🛒 Add to Cart
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Book 4 -->
+        <div class="col-lg-3 col-md-6">
+            <div class="card book-card h-100">
+                <div class="position-relative">
+                    <img src="./imges/1340550f5076efd72dc324dd3e24bc96.jpg"
+                         class="card-img-top book-img"
+                         alt="Book">
+                    <button class="favorite">♡</button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">The Psychology of Money</h5>
+                    <p class="author">Morgan Housel</p>
+                    <p class="rating">
+                        ⭐ 4.7 <span>(11.2k)</span>
+                    </p>
+                    <h5 class="price">$11.99</h5>
+                    <a href="book4.html" class="btn add-cart w-100">
+                        🛒 Add to Cart
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+                <!-- Book 5 -->
+        <div class="col-lg-3 col-md-6">
+            <div class="card book-card h-100">
+                <div class="position-relative">
+                    <img src="./imges/1a71402f0119157c3538c1501b4bd6e6.jpg"
+                         class="card-img-top book-img"
+                         alt="Book">
+                    <button class="favorite">♡</button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">The Psychology of Money</h5>
+                    <p class="author">Morgan Housel</p>
+                    <p class="rating">
+                        ⭐ 4.7 <span>(11.2k)</span>
+                    </p>
+                    <h5 class="price">$11.99</h5>
+                    <a href="book5.html" class="btn add-cart w-100">
+                        🛒 Add to Cart
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+                <!-- Book 6 -->
+        <div class="col-lg-3 col-md-6">
+            <div class="card book-card h-100">
+                <div class="position-relative">
+                    <img src="./imges/1be17e8a9063bf7ff8a018ed20c54fc3.jpg"
+                         class="card-img-top book-img"
+                         alt="Book">
+                    <button class="favorite">♡</button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">The Psychology of Money</h5>
+                    <p class="author">Morgan Housel</p>
+                    <p class="rating">
+                        ⭐ 4.7 <span>(11.2k)</span>
+                    </p>
+                    <h5 class="price">$11.99</h5>
+                    <a href="book6.html" class="btn add-cart w-100">
+                        🛒 Add to Cart
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+
+                <!-- Book 7 -->
+        <div class="col-lg-3 col-md-6">
+            <div class="card book-card h-100">
+                <div class="position-relative">
+                    <img src="./imges/29ff95f83aa997594259eee432b3b025.jpg"
+                         class="card-img-top book-img"
+                         alt="Book">
+                    <button class="favorite">♡</button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">The Psychology of Money</h5>
+                    <p class="author">Morgan Housel</p>
+                    <p class="rating">
+                        ⭐ 4.7 <span>(11.2k)</span>
+                    </p>
+                    <h5 class="price">$11.99</h5>
+                    <a href="book7.html" class="btn add-cart w-100">
+                        🛒 Add to Cart
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+                <!-- Book 8 -->
+        <div class="col-lg-3 col-md-6">
+            <div class="card book-card h-100">
+                <div class="position-relative">
+                    <img src="./imges/2b6fa216c33c92c16fa2d733074936b3.jpg"
+                         class="card-img-top book-img"
+                         alt="Book">
+                    <button class="favorite">♡</button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">The Psychology of Money</h5>
+                    <p class="author">Morgan Housel</p>
+                    <p class="rating">
+                        ⭐ 4.7 <span>(11.2k)</span>
+                    </p>
+                    <h5 class="price">$11.99</h5>
+                    <a href="book8.html" class="btn add-cart w-100">
+                        🛒 Add to Cart
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
